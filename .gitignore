@@ -1,4 +1,8 @@
 node_modules
 *.log
 .idea
-dist
+
+# Even though dist/ is ignored in upstream
+# we don't ignore it here because we're installing
+# this fork straight from github
+# dist
